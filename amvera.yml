@@ -3,12 +3,3 @@ meta:
   toolchain:
     name: npm
     version: 22
-
-build:
-  artifacts:
-    "*": "/"
-
-run:
-  command: pnpm install && pnpm build && pnpm start
-  persistenceMount: /data
-  containerPort: 80
