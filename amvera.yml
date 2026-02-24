@@ -4,10 +4,6 @@ meta:
     name: npm
     version: 22
 
-build:
-  nodeModules: npm
-  args: --legacy-peer-deps
-
 run:
   containerPort: 80
   persistenceMount: /data
